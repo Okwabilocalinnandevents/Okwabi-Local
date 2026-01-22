@@ -3,108 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Mark-X</title>
-
+    <title>Home | OKWABI LOCAL INN AND EVENTS</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a class="brand" href="index.html"><span class="dot">.</span>Mark-<span class="x-mark">X</span></a>
 
-            <div class="search">
-                <input type="text" placeholder="&#8981; search items....">
-                <button type="button">Search</button>
-            </div>
-            <ul class="ul">
-                <li><a class="links active" href="index.html">Home</a></li>
-                <li><a class="links" href="about.html">About</a></li>
-                <li><a class="links" href="portfolio.html">Portfolio</a></li>
-                <li><a class="links" href="blog.html">Blog</a></li>
-                <li><a class="links" href="services.html">Services</a></li>
-                <li><a class="links" href="contact.html">Contact</a></li>
-            </ul>
+    <!-- Navigation -->
+    <nav>
+        <a class="logo" href="index.html"><img src="img/logo.jpeg" alt="">OKWABI<span> LOCAL INN</span></a>
+        <ul class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </ul>
 
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Video -->
+    <header class="hero">
+        <!-- The Video Element -->
+        <video autoplay muted loop playsinline id="hero-video-bg">
+            <source src="vid/vid 2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- The Overlay for Text Readability -->
+        <div class="hero-overlay-video"></div>
+
+        <!-- Content sits on top -->
+        <h1>Okwabi Local Inn & Events</h1>
+        <p>Food, Drinks, Rentals, and Expert Event Management in the heart of Accra.</p>
+        <a href="contact.html" class="cta-btn">Book Your Event</a>
     </header>
 
+    <!-- Mission & Vision -->
+    <section class="statement-box">
+        <div>
+            <h2>Our Vision</h2>
+            <p>To redefine the local inn experience by providing a seamless, all-encompassing solution for dining, entertainment, and events.</p>
+        </div>
+        <div>
+            <h2>Our Mission</h2>
+            <p>To simplify celebrations for our clients by offering high-quality catering, diverse rentals, and expert event coordination all under one roof.</p>
+        </div>
+    </section>
 
-    <main>
-        <section class="welcome-image">
-            <div class="hero-text">
-                <h2>Welcome to Mark-X Technology inc.</h2>
-                <p>Creative Solutions & Digital Design</p>
-                <a href="portfolio.html" class="btn-main">View My Work</a>
+    <!-- Core Values -->
+    <section class="section-padding">
+        <h2>Our Core Values</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Customer Centricity</h3>
+                <p>Putting the client’s needs at the center of everything we do.</p>
             </div>
-        </section>
-
-        <!-- Portfolio Card Grid -->
-        <section id="portfolio" class="portfolio-container">
-            <h2 class="section-title">Latest Projects</h2>
-            
-            <div class="card-grid">
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/Brand Identity.jpg" alt="Project One"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>Brand Identity</h3>
-                        <p>Modern visual styling for tech startups.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/Web Development.jpg" alt="Project Two"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>Web Development</h3>
-                        <p>High-performance responsive websites.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <a href="portfolio.html"><img src="img/UIUX Design.jpg" alt="Project Three"></a>
-                    </div>
-                    <div class="card-content">
-                        <h3>UI/UX Design</h3>
-                        <p>User-centric mobile application interfaces.</p>
-                        <a href="portfolio.html" class="card-link">Read More →</a>
-                    </div>
-                </div>
+            <div class="service-card">
+                <h3>Efficiency</h3>
+                <p>Streamlining the event process to save our clients time and stress.</p>
             </div>
-        </section>
-    </main>
-
-    <footer class="small-footer">
-        <div class="footer-main">
-            <a class="brand" href="#"><span>.</span>Mark-<span>X</span></a>
-            
-            <div class="footer-contact">
-                <a href="mailto:yourgmail@gmail.com" class="footer-email">asamoahbismark39@gmail.com</a>
-                <div class="footer-socials">
-                    <a href="www.facebook.com">Facebook</a>
-                    <a href="www.x.com">Twiter</a>
-                    <a href="www.linkedin.com">LinkedIn</a>
-                </div>
+            <div class="service-card">
+                <h3>Quality</h3>
+                <p>Maintaining the highest standards for our food and equipment.</p>
             </div>
         </div>
+    </section>
 
-        <div class="footer-copyright">
-            <p>&copy; 2026 .Mark-X. All rights reserved.</p>
+    <!-- Multimedia Gallery Preview -->
+    <section class="section-padding" style="background-color: #fff;">
+        <h2>Event Highlights</h2>
+        <p>A glimpse of our previous celebrations and setups.</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                    <source src="vid/vid 1.mp4" type="video/mp4">
+                </video>
+                <div class="gallery-label">Video: Catering Service</div>
+            </div>
+            <div class="gallery-item">
+                <!-- Using updated placeholder images for visual context -->
+                <img src="img/img 1.jpeg" alt="Event setup">
+                <div class="gallery-label">Event Setup</div>
+            </div>
+            <div class="gallery-item">
+                 <!-- Using updated placeholder images for visual context -->
+                <img src="img/img 2.jpeg" alt="Food">
+                <div class="gallery-label">Local Cuisine</div>
+            </div>
+        </div>
+        <br><br>
+        <a href="gallery.html" class="cta-btn" style="background: var(--primary);">View Full Gallery</a>
+    </section>
+
+    <!-- Footer with Business Details -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Okwabi Local Inn</h3>
+                <p>Digital Address: GA-440-6637<br>
+                House No. B894/13, 3rd Ponpon Link<br>
+                Ablekuma Central, Accra.</p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>Phone: 0244706856 / 0209027949<br>
+                Email: emmbigo@yahoo.com<br>
+                Box KN 4629, Kaneshie</p>
+            </div>
+            <div>
+                <h3>Proprietor</h3>
+                <p>Mr. Emmanuel Okwabi Agoe<br>
+                Surveyor & Event Organizer</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 OKWABI LOCAL INN AND EVENTS. All rights reserved.
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    
 </body>
 </html>
