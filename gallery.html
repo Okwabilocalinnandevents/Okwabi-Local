@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | OKWABI LOCAL INN AND EVENTS</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a class="logo" href="index.html"><img src="img/logo.jpeg" alt="">OKWABI<span> LOCAL INN</span></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="gallery-header">
+        <h1>Moments Captured</h1>
+        <p>Explore highlights from our events, catering, and venue setups.</p>
+    </header>
+
+    <div class="gallery-container">
+        <!-- LARGE FEATURED VIDEO ITEM -->
+        <div class="gallery-item span-2">
+            <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="vid/vid 4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"><h4>Video: Grand Gala Night</h4></div>
+        </div>
+
+        <!-- IMAGE ITEMS -->
+        <div class="gallery-item1">
+            <img src="img/Buffet Setup.jpg" alt="Catering">
+            <div class="overlay"><h4>Buffet Setup</h4></div>
+        </div>
+
+        <div class="gallery-item1">
+            <img src="img/Wedding Decor.jpg" alt="Event Setup">
+            <div class="overlay"><h4>Wedding Decor</h4></div>
+        </div>
+
+        <!-- VERTICAL SPAN ITEM -->
+        <div class="gallery-item1 row-2">
+            <img src="img/Grand Gala Night.jpg" alt="Night Event">
+            <div class="overlay"><h4>Evening Reception</h4></div>
+        </div>
+
+        <div class="gallery-item1">
+            <img src="img/img 3.jpeg" alt="Outdoor Event">
+            <div class="overlay"><h4>Garden Party</h4></div>
+        </div>
+
+        <div class="gallery-item1">
+            <img src="img/img 4.jpeg" alt="Outdoor Event">
+            <div class="overlay"><h4>Garden Party</h4></div>
+        </div>
+
+        <div class="gallery-item1">
+            <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="vid/vid 3.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"><h4>Service Highlights</h4></div>
+        </div>
+
+        <div class="gallery-item1">
+            <img src="img/img 1.jpeg" alt="Outdoor Event">
+            <div class="overlay"><h4>Garden Party</h4></div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 40px; background: var(--primary); color: white;">
+        <p>&copy; 2026 OKWABI LOCAL INN AND EVENTS. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
